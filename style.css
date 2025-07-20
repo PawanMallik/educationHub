@@ -47,8 +47,15 @@ nav {
   align-items: center;
   font-size: 1rem;
 }
-h1 {
-  font-size: 24px;
+
+.right-nav ul li a {
+  color: black;
+  /* font-weight: bold; */
+  cursor: pointer;
+  text-decoration: none;
+}
+.grediant {
+  /* font-size: 24px; */
   background: -webkit-linear-gradient(left, #f36c68, #f9a826);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -78,4 +85,94 @@ h1 span {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.bacnground {
+  background-image: url("images/Picsart_25-07-20_21-37-29-877.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 50px; */
+  /* background-color: red; */
+  height: 100vh;
+  width: 100%;
+}
+.right-hero {
+    height: 100%;
+    width: 50%;
+  /* background-color: green; */
+}
+
+.left-hero {
+  width: 50%;
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  /* background-color: blue; */
+}
+
+.img-sec{
+    width: 70%;
+    height: 200px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 20px;
+}
+
+.img-sec img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.admission-h1{
+  /* font-size: 2rem; */
+  color: black;
+  width: 70%;
+  /* background-color: yellow; */
+}
+
+.big{
+    /* background-color: green; */
+    font-size: 2.3rem;
+    height: 100px;
+    width: 70%;
+    /* white-space: nowrap; */
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: purple; */
+ height: 100px;
+  width: 70%;
+  gap: 20px;
+}
+
+.button button {
+  padding: 10px 20px;
+  background: #f9a826;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.button button:nth-child(2)  {
+  background-color: white;
+  color: #f9a826;
+  border: 2px solid #f9a826;
 }
