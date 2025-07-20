@@ -176,3 +176,100 @@ h1 span {
   color: #f9a826;
   border: 2px solid #f9a826;
 }
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  height: 210px; /* Height of the slider */
+  /* background-color: green; */
+}
+
+/* Each slide centers the card */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f36c68; */
+}
+
+/* Full-width cards */
+.card {
+  width: 100%;          /* Take full width */
+  height: 150px;        /* Fixed height */
+  /* background: red; */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.first-card-details{
+    height: 50%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.first-inner{
+/* background-color: red; */
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.first-inner img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.second-inner{
+/* background-color: blue; */
+font-size: 10px;
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;  
+font-size: 0.8rem;  
+}
+.second-inner h1:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 10;
+    
+}
+.second-card-details{
+    height: 50%;
+    width: 90%;
+    /* background-color: aqua; */
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-card-details h2{
+    font-weight:10;
+}
+
+.swiper-button-next{
+    height: 67px;
+    width: 67px;
+    color: white;
+    background-color: #f9a826;
+    border-radius: 50%;
+}
+.swiper-button-prev{
+    height: 67px;
+    width: 67px;
+    color: white;
+    background-color: #f9a826;
+    border-radius: 50%;
+}
+
