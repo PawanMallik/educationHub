@@ -273,3 +273,76 @@ font-size: 0.8rem;
     border-radius: 50%;
 }
 
+
+/* colleges section */
+
+.colleges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+  justify-content: center;
+}
+
+.c-first {
+  color: #909090;
+  /* margin-top: 20px; */
+  /* background-color: red; */
+  width:90%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-first h1{
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+.c-third{
+ height: 100px;
+ width: 90%;
+ /* background-color: yellow; */
+ display: flex;
+ justify-content: center;
+ align-items:center;
+}
+
+.c-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 50%;
+  gap: 20px;
+  /* background-color: green; */
+}
+
+.c-second img{
+  height: 70px;
+  width: 200px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  background-position: center;
+}
+
+.c-third a {
+  text-decoration: none;
+  color: #f9a826;
+  font-weight: bold;
+  font-size: 0.7rem;
+   height: 50px;
+  width: 130px;
+  background-color: #fff;
+  border: 2px solid #f9a826;
+  border-radius:9px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
