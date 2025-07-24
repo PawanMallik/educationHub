@@ -346,15 +346,7 @@ font-size: 0.8rem;
 }
 
 
-/* find cources section */
-.find-cource {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background-color: #f4f4f4;
-}
+
 
 
 /* archivement section start here */
@@ -445,5 +437,291 @@ font-size: 0.8rem;
   /* border-radius: 50%; */
   /* background-color: red; */
   object-fit: contain;
-
 }
+
+
+
+
+/* find cources section */
+.find-cource {
+  
+  height: auto;
+  width: 100%;
+
+  /* background-color: #f4f4f4; */
+}
+
+
+
+    .fc{
+      height: 300px;
+      width: 100%;
+      /* background-color: aqua; */
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fc-one {
+      height: 55%;
+      width: 50%;
+      /* background-color: #f9a826; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .fc-one h2 {
+      font-size: 1rem;
+      color: #f9a826;
+      font-weight: 200;
+    }
+
+    .fc-one h1{
+      color: #909090;
+      font-size: 2.5em;
+    }
+    .fc-one p {
+      font-size: 1.1rem;
+      color: #909090;
+      text-align: center;
+    }
+    .fc-two button {
+      padding: 10px 20px;
+      background: #f9a826;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      height: 70%;
+      width: 150px;
+    }
+  .fc-two{
+      height: 25%;
+      width: 80%;
+      background-color: white;
+      border-radius: 9px;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0) ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    
+    select{
+      height: 70%;
+      border-radius: 10px;
+      width: 250px;
+      border: none;
+      background-color: #f4eeeecf;
+      color: black;
+      font-weight: 500;
+      font-size: 1.1em;
+      padding-left: 20px;
+      /* outline: 2px solid #f9a826; */
+    }
+    select option{
+      background-color: white;
+      color: #f9a826;
+      border-radius: 10px;
+    }
+
+header {
+      /* background-color: crimson; */
+      padding: 20px;
+      text-align: center;
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 90%;
+      /* background-color: antiquewhite; */
+       display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tabs li {
+      list-style: none;
+      font-size: 20px;
+      color: #333;
+      transition: all 0.3s ease;
+      height: 50px;
+      width: auto;
+      padding-inline: 20px;
+      /* background-color: green; */
+ display: flex;
+      justify-content: center;
+      align-items: center;  
+      border-radius: 20px;
+      
+    }
+
+    .tabs li.active-tab {
+      background: #ff6600;
+      color: white;
+    }
+
+    section {
+      padding: 20px;
+      position: relative;
+    }
+
+    /* Carousel wrapper */
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    /* The actual slider area (flex pages) */
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    /* Each page contains a grid of 4x2 */
+    .carousel-page {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      flex: 0 0 100%; /* Each page takes full width */
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    .compare-text{
+      font-size: 0.7em;
+      /* background-color: green; */
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .big-card {
+      border: 1px solid #ddd;
+      /* padding: 15px; */
+      border-radius: 10px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+      height: 200px;
+      width: 300px;
+      overflow: hidden;
+    }
+
+    /* .big-card:hover {
+      transform: translateY(-5px);
+    } */
+
+    .big-card img {
+      width: 80px;
+      /* margin-bottom: 10px; */
+    }
+
+    .big-card h1 {
+      font-size: 18px;
+      /* margin: 5px 0; */
+    }
+
+    .big-card h3 {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .stars span {
+      color: gold;
+      
+    }
+    .stars{
+      /* background-color: red; */
+      height: 30px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bc-to {
+    /* background-color: aqua; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bc-to button {
+      background: #ff6600;
+      color: #fff;
+      border: none;
+      /* padding: 8px 12px; */
+      border-radius: 4px;
+      cursor: pointer;
+      /* margin-bottom: 5px; */
+      height: 40px;
+      width: 70%;
+    }
+
+    .bc-to button:hover {
+      background: #e65c00;
+    }
+
+    /* Arrows */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 18px;
+      z-index: 2;
+    }
+    .arrow.left { left: 10px; }
+    .arrow.right { right: 10px; }
+
+    section > div {
+      display: none;
+    }
+    section > div.active {
+      display: block;
+    }
+
+    .img-container{
+      /* background-color: red; */
+      display: flex;
+      width: 300px;
+    }
+    .duration {
+      /* background-color: yellow; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 20px;
+      width: 80%;
+    }
+    .duration h1 {
+      /* white-space: nowrap; */
+    }
