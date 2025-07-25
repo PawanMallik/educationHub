@@ -1066,3 +1066,469 @@ footer {
 }
 
 
+
+
+
+
+@media (max-width:600px) {
+    nav{
+        /* background-color: red ; */
+    }  
+
+    .right-nav{
+        display: none ;
+    }
+
+      .left-nav{
+        /* background-color: green; */
+        height: 100%;
+        width: 100%;
+    }
+
+    header{
+      overflow: auto;
+    }
+    .fc-two{
+      overflow: auto;
+      width: 90%;
+    }
+
+    .fc-one {
+      width: 100%;
+    }
+
+    select{
+      width: 123px;
+      font-size: 1em;
+      padding: 0;
+    }
+
+    
+    .fc-two button {
+    width: 78px;
+    }
+
+    .aa-first{
+      width: 90%;
+    }
+    .ab-first{
+      width: 90%;
+    }
+    .aa-first h1 {
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.543);
+}.aa-first h3 {
+    font-size: 1em;
+    color: royalblue;
+}
+    .ab-first h1 {
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.543);
+}.ab-first h3 {
+    font-size: 1em;
+    color: royalblue;
+}
+.a-first{
+  width: 40%;
+}
+.b-first{
+  width: 60%;
+  display: block;
+}
+
+.bb-first img{
+  height: 60px;
+}
+.ci-two{
+  display: none;
+}
+.ci-one{
+  width: 90%;
+  /* background-color: yellow; */
+}
+
+.contact-info{
+  justify-content: center;
+  align-items: center;
+}
+.ci-card{
+  width: 100%;
+}
+
+.login-link a{
+      font-size: 0.95em;
+
+}
+
+.enroll-two button{
+  height: 17%;
+  width: 90%;
+}
+
+.social-media{
+  gap: 10px;
+}
+
+.first-first{
+  width: 70%;
+  /* background-color: green; */
+}
+
+.first-second{
+  width: 30%;
+  /* background-color: yellow; */
+}
+.first-first p{
+  padding-left: 10px;
+}
+
+.links{
+  margin-left: 10px;
+}
+
+.second-one{
+  width: 40%;
+  padding: 0;
+  align-items: center;
+  /* background-color: red; */
+}
+.second-two{
+  width: 35%;
+  /* background-color: green; */
+}
+.second-three{
+  width: 25%;
+  /* background-color: pink; */
+}
+    .data {
+        width: 100%;
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .length {
+    height: 100%;
+    width: 90%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+footer{
+  height: 40vh;
+}
+.contact{
+  height: 40vh;
+}
+.enroll{
+  height: 34vh;
+}
+.archievements{
+  height: 328px;
+}
+.ba-first{
+  height: 110px;
+}
+.tabs li{
+  white-space: nowrap;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:414px) {
+    nav{
+        /* background-color: red ; */
+    }  
+
+    .right-nav{
+        display: none ;
+    }
+
+      .left-nav{
+        /* background-color: green; */
+        height: 100%;
+        width: 100%;
+    }
+
+    header{
+      overflow: auto;
+    }
+    .fc-two{
+      overflow: auto;
+      width: 95%;
+    }
+
+    .fc-one {
+      width: 100%;
+    }
+
+    select{
+      width: 79px;
+      font-size: 0.7em;
+      padding: 0;
+    }
+
+    .right-hero{
+      display: none;
+    }
+
+    .left-hero{
+      /* background-color: green; */
+      width: 100%;
+    }
+.big{
+  width: 100%;
+  padding-inline: 20px;
+}
+
+    
+    .fc-two button {
+    width: 78px;
+    }
+
+    .aa-first{
+      width: 90%;
+    }
+    .ab-first{
+      width: 90%;
+    }
+    .aa-first h1 {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.543);
+}.aa-first h3 {
+    font-size: 1em;
+    color: royalblue;
+}
+    .ab-first h1 {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.543);
+}.ab-first h3 {
+    font-size: 1em;
+    color: royalblue;
+}
+.a-first{
+  width: 40%;
+}
+.b-first{
+  width: 60%;
+  display: block;
+}
+.bb-first{
+  flex-wrap: wrap;
+  height: 184px;
+}
+.arrow.left{
+  display: none;
+}
+.arrow.right{
+  display: none;
+}
+.carousel-page{
+  overflow: auto;
+}
+
+section{
+  padding: 0;
+}
+
+.fc-one h1{
+  color: #909090;
+    font-size: 1.8em;
+    padding-inline: 11px;
+}
+
+.bb-first img{
+  height: 70px;
+  width: auto;
+  gap: 0;
+}
+.ci-two{
+  display: none;
+}
+.ci-one{
+  width: 90%;
+  /* background-color: yellow; */
+}
+
+.c-second img{
+  width: 160px;
+}
+
+.contact-info{
+  justify-content: center;
+  align-items: center;
+}
+.ci-card{
+  width: 100%;
+}
+
+.login-link a{
+      font-size: 0.95em;
+
+}
+
+.enroll-two button{
+  height: 17%;
+  width: 90%;
+  font-size: 0.95rem;
+}
+.c-first{
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  
+}
+.c-second{
+  height: 800px;
+  /* background-color: green; */
+  
+}
+.card{
+  /* background-color: red; */
+  max-width: 100%;
+}
+
+.colleges{
+  height: 70vh;
+  /* background-color: red; */
+  padding-block: 20px;
+}
+.c-first h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.social-media{
+  gap: 10px;
+        height: 100%;
+        width: 100%;
+        display: flex
+;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+
+.first-first{
+  width: 70%;
+  /* background-color: green; */
+}
+
+.first-second{
+  width: 30%;
+  /* background-color: yellow; */
+}
+
+.first-first p{
+          /* padding-left: 10px; */
+        font-size: 0.7rem;
+        white-space: nowrap;
+}
+.first-first a{
+  font-size: 0.73rem;
+}
+
+.links{
+  margin-left: 10px;
+}
+
+.second-one{
+  width: 40%;
+  padding: 0;
+  align-items: flex-start;
+  /* background-color: red; */
+  padding-left: 10px;
+}
+.second-one a{
+  font-size: 0.8em;
+}
+.second-two{
+  width: 35%;
+  /* background-color: green; */
+  padding-left: 10px;
+}
+.linkk{
+  flex-direction: column;
+  gap: 10px;
+}
+.second-three{
+  width: 25%;
+  /* background-color: pink; */
+}
+.second-three h1{
+  font-size: 0.66em;
+}
+.login-link {
+  gap: 20px;
+}
+.login-link a{
+  font-size: 0.70em;
+}
+.contact-info{
+  height: 70%;
+}
+.contact-heading{
+  height: 15%;
+}
+.login-users{
+  height: 15%;
+}
+.enroll-on{
+  width: 90%;
+}
+.enroll-tw{
+  width: 90%;
+}
+    .data {
+        width: 100%;
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .length {
+    height: 100%;
+    width: 90%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+footer{
+  height: 40vh;
+}
+.contact{
+  height: 40vh;
+}
+.enroll{
+  height: 30vh;
+}
+.archievements{
+  height: 260px;
+}
+.ba-first{
+  height: 75px;
+}
+.tabs li{
+  white-space: nowrap;
+}
+}

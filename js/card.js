@@ -67,7 +67,7 @@
   // Initialize Swiper AFTER adding slides
   const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 3,
+    // slidesPerView: 3,
     spaceBetween: 20,
     centeredSlides: true,
     autoplay: {
