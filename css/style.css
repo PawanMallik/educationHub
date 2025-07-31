@@ -161,7 +161,7 @@ h1 span {
   gap: 20px;
 }
 
-.button button {
+.button a {
   padding: 10px 20px;
   background: #f9a826;
   color: white;
@@ -169,12 +169,21 @@ h1 span {
   border-radius: 5px;
   cursor: pointer;
   border-radius: 9px;
+  text-decoration: none;
+  &:hover{
+  text-decoration: underline;
+  }
 }
 
-.button button:nth-child(2) {
+.button a:nth-child(2) {
   background-color: white;
   color: #f9a826;
   border: 2px solid #f9a826;
+  transition: all ease 0.2s ;
+  &:hover{
+    background-color: #f9a826;
+    color: white;
+  }
 }
 
 /* Swiper container */
@@ -1032,7 +1041,7 @@ footer {
   align-items: center;
 }
 
-.enroll-two button {
+.enroll-two a {
   padding: 10px 20px;
   /* background-color: ; */
   color: white;
@@ -1042,7 +1051,15 @@ footer {
   font-size: 1.2rem;
   height: 35%;
   width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2em;
   background-image: linear-gradient(to right, #e65c00, orange);
+  &:hover{
+    background-image: linear-gradient(to right, orange,#e65c00 );
+  }
 }
 
 .enroll-on {

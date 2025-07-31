@@ -11,14 +11,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $marks = $_POST['marks'];
     $college = $_POST['college'];
     $course = $_POST['course'];
+    $address = $_POST['address'];
+    $other_course = $_POST['other_course'];
     $notes = $_POST['notes'];
 
-    $stmt = $conn->prepare("INSERT INTO students (name,email,phone,qualification,year,marks,college,course,notes,status) VALUES (?,?,?,?,?,?,?,?,?,'pending')");
-    $stmt->bind_param("sssssssss", $name, $email, $phone, $qualification, $year, $marks, $college, $course, $notes);
+    $stmt = $conn->prepare("INSERT INTO students (name,email,phone,qualification,year,marks,college,course,address,other_course,notes,status) VALUES (?,?,?,?,?,?,?,?,?,?,?,'pending')");
+    $stmt->bind_param("sssssssssss", $name, $email, $phone, $qualification, $year, $marks, $college, $course, $address, $other_course, $notes);
     if ($stmt->execute()) {
-        $message = "Your enquiry has been submitted successfully! We will contact you soon.";
+        $message = "Your enquiry has been submitted successfully!";
     } else {
-        $message = "There was an error submitting your enquiry. Please try again.";
+        $message = "Error submitting enquiry. Please try again.";
     }
 }
 ?>
@@ -30,24 +32,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         body {
             background: #fdf7f2;
-            font-family: Arial, sans-serif;
         }
         .form-container {
             max-width: 600px;
             margin: 50px auto;
             background: #fff;
             padding: 30px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h2 {
             text-align: center;
             color: #ff9800;
             margin-bottom: 20px;
-            font-weight: bold;
         }
         label {
-            font-weight: bold;
+            font-weight: 500;
             margin-top: 10px;
         }
         .btn-submit {
@@ -78,6 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label>Phone:</label>
         <input type="text" name="phone" class="form-control" required>
 
+        <label>Address:</label>
+        <input type="text" name="address" class="form-control" required>
+
         <label>Previous Qualification:</label>
         <select name="qualification" class="form-control" required>
             <option value="">Select Qualification</option>
@@ -87,10 +90,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </select>
 
         <label>Year of Passing:</label>
-        <input type="text" name="year" class="form-control" placeholder="e.g. 2024" required>
+        <input type="text" name="year" class="form-control" required>
 
         <label>Marks (Percentage or Grade):</label>
-        <input type="text" name="marks" class="form-control" placeholder="e.g. 85% or A+" required>
+        <input type="text" name="marks" class="form-control" required>
 
         <label>Preferred College:</label>
         <select name="college" class="form-control" required>
@@ -108,8 +111,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <option value="MBA">MBA</option>
         </select>
 
-        <label>Additional Notes (Optional):</label>
-        <textarea name="notes" class="form-control" rows="3" placeholder="Any specific preferences or queries..."></textarea>
+        
+        <label>Prefer Other Course (if any):</label>
+<input type="text" name="other_course" class="form-control" placeholder="Optional">
+
+        <label>Additional Notes:</label>
+        <textarea name="notes" class="form-control" rows="3" placeholder="Optional"></textarea>
 
         <button type="submit" class="btn btn-submit">Submit Enquiry</button>
     </form>
